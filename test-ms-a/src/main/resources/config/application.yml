@@ -1,11 +1,6 @@
 server:
   port: 9088
+
 spring:
   application:
-      name:ms-a
-eureka:
-    instance:
-        hostname: msa
-
-myprops:
-    alias: ${people}
+      name: ms-a
